@@ -1,0 +1,6 @@
+creation_rules:
+  - path_regex: .*
+    encrypted_regex: "^(data|stringData)$"
+    key_groups:
+      - pgp:
+          - ED522181BCEBE66611CD23839581647E383EA6E4
